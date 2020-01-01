@@ -1,0 +1,18 @@
+from Jocoding
+1. HTML Cource
+ 1-1. https://opentutorials.org/course/1
+ 1-2. https://www.codecademy.com/courses/learn-html/lessons/intro-to-html/exercises/intro?action=resume_content_item
+
+2. Free Server Provide or WebHosting
+ WebHosting
+information about webhosting comes from [HTML 기초 강좌 2강]
+ 1) http://www.netlify.com : It's Free!! I regitered this site as member
+     ★ https://cybervisiontest.netlify.com ★
+ 2) AWS : It's Good. but...little cost~
+
+3. VS Code 사용하기
+ 출처 : https://devstorylog.blogspot.com/2018/05/anaconda-python-vscode.html
+
+4. Github 새로 repository 연결
+https://www.pluralsight.com/guides/using-git-and-github-on-windows
+https://webclub.tistory.com/317 
