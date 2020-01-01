@@ -5,14 +5,19 @@ from Jocoding
 
 2. Free Server Provide or WebHosting
  WebHosting
-information about webhosting comes from [HTML ���� ���� 2��]
+information about webhosting comes from [HTML 기초 강좌 2강]
  1) http://www.netlify.com : It's Free!! I regitered this site as member
-     �� https://cybervisiontest.netlify.com ��
+     ★ https://cybervisiontest.netlify.com ★
  2) AWS : It's Good. but...little cost~
 
-3. VS Code ����ϱ�
- ��ó : https://devstorylog.blogspot.com/2018/05/anaconda-python-vscode.html
+3. VS Code 사용하기
+ 출처 : https://devstorylog.blogspot.com/2018/05/anaconda-python-vscode.html
 
-4. Github ���� repository ����
+4. Github 새로 repository 연결
 https://www.pluralsight.com/guides/using-git-and-github-on-windows
 https://webclub.tistory.com/317 
+
+5. branch를 활용한 pull 차이
+https://blog.outsider.ne.kr/641
+ -> 단순히 git checkout origin/branch 차이가 아님. 
+ -> -b 의 옵션값이 있어야 detached HEAD 가 안됨. 차이에 대해서 공부필요
