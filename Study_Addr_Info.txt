@@ -21,3 +21,9 @@ https://webclub.tistory.com/317
 https://blog.outsider.ne.kr/641
  -> 단순히 git checkout origin/branch 차이가 아님. 
  -> -b 의 옵션값이 있어야 detached HEAD 가 안됨. 차이에 대해서 공부필요
+
+branch 는 remote branch vs loacl branch 개념이 있다
+좀더 살펴보면, 
+local_branch - reote_trachking_branch - remote_branch 개념이라고 여겨진다
+주소 : https://stackoverflow.com/questions/16408300/what-are-the-differences-between-local-branch-local-tracking-branch-remote-bra/24785777
+
