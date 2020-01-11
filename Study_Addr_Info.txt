@@ -27,3 +27,12 @@ branch 는 remote branch vs loacl branch 개념이 있다
 local_branch - reote_trachking_branch - remote_branch 개념이라고 여겨진다
 주소 : https://stackoverflow.com/questions/16408300/what-are-the-differences-between-local-branch-local-tracking-branch-remote-bra/24785777
 
+Specify meaning of branches in Git
+There are 4 types of branches in Git
+1)local-non-tracking-branch : On local Machine
+2)local    -tracking-branch : On local Machine
+3)remote-tracking-branch    : On local Machine
+4)remote-branch             : On remote Machine
+source : https://stackoverflow.com/questions/16408300/what-are-the-differences-between-local-branch-local-tracking-branch-remote-bra/24785777
+
+
