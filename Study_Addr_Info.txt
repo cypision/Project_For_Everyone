@@ -1,4 +1,4 @@
-from Jocoding
+﻿from Jocoding
 1. HTML Cource
  1-1. https://opentutorials.org/course/1
  1-2. https://www.codecademy.com/courses/learn-html/lessons/intro-to-html/exercises/intro?action=resume_content_item
@@ -8,6 +8,7 @@ from Jocoding
 information about webhosting comes from [HTML 기초 강좌 2강]
  1) http://www.netlify.com : It's Free!! I regitered this site as member
      ★ https://cybervisiontest.netlify.com ★
+     ★ https://simple-cyber-jin.netlify.com/ ★
  2) AWS : It's Good. but...little cost~
 
 3. VS Code 사용하기
