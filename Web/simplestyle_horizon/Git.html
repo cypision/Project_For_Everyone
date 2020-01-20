@@ -75,29 +75,48 @@
       </div>
       <div id="content">
         <!-- insert the page content here -->
-        <h1>Git 의 구조</h1>
-        <ul>
-            <h4><span class="detail_content_list">Git의 주요 명령어</span></h4>
-            <br>
-            <h5> Git push / pull</h5>
+        <h1>Git 의 구조 이해하기</h1>
+          <p> working tree - index tree - repository(local) 처럼 3가지로 구분하며, 추가로 원격저장소를 표시하기도 한다. repository(remote) </p>
+          <img class="img-fluid" src="img/git_pic01.PNG" alt="" width="650" height="250"><br><br><br>
+
+        <h1>Git 의 연동 명령어에 따른 변화</h1>
+          <img class="img-fluid" src="img/git_pic00.PNG" alt="" width="550" height="450">
+        
+        <h1><span class="detail_content_list">Git의 주요 명령어</span></h1><br>
+          <h5> Git push / pull</h5>
             <p> Git의 local 저장소와 remote 저장소를 연결하는 용어</p>
-            <br />
-            <h5> Git local 저장소를 만드는 2가지 방법</h5>
-            <p> git inti 과 git clone http://git~~ 2가지가 있다</p>
-            
-            <h4><span class="detail_content_list">Git 이해하기</span></h4>
-            <img class="img-fluid" src="img/git_pic00.PNG" alt="" width="550" height="450">
             <br>
-            <h4><span class="detail_content_list">Git 3개 구조</span></h4>
-            <h4><span class="detail_content_list">Git 을 활용한 SW</span></h4>
-            <h4><span class="detail_content_list">Git 기타</span></h4>
+          <h5> Git local 저장소를 만드는 2가지 방법</h5>
+            <p> git inti 과 git clone https://github.com/cypision/Project_For_Everyone.git 2가지가 있다. 현 예제에서는 https://~ 방식으로 했지만,
+            보안상의 이유로, 주로 일반적으로 SSH 방식으로 접속한다.
+            </p>
+        <h1> branch 종류 구분하기 </h1>
+          <p> 일반적으로 분류하면, 4가지로 나눌수 있다.</p><br>
+          <a href="https://stackoverflow.com/questions/16408300/what-are-the-differences-between-local-branch-local-tracking-branch-remote-bra/24785777" , target="_blank"> 참고자료 원본 링크</a>    
+            <p> 1.Local Branch <br>
+              <span>1.1 Non-tracking local branches </span><br>
+              <span class="deatail02"> 어떠한 branch 랑도 연관되어 있지 않은 local repo의 branch</span><br>
+              <span>1.2 Tracking local branches </span> <br>
+              <span class="deatail02">주로 remote-tracking branch 랑 연결되어 있는 local repo의 branch. " git branch --track <branchname> " 명령어로 확인 가능</span><br>
+              <span>1.3 remote tracking branches </span> <br>  
+              <span class="deatail02">local 에 존재하는 remote branch의 복사본이다 " git branch -avv " 명령어로 확인가능</span><br>    
+            </p>
+            <p> 2.Remote Branch <br>
+              <span>2.1 remote branch </span><br>
+              <span class="deatail02"> 물리적으로 원격 reposittory에 존재하는 branch 를 말한다. 지금까지 얘기했던, 부분을 그림으로 보면 좀더 이해가 쉽다 </span><br>
+              <img class="img-fluid" src="img/git_pic02.PNG" alt="" width="550" height="150">
+              <span class="deatail02"> 흰 글씨들이 tracking local branch이며, 파랑색깔이 remote-tracking-branch 이다. 빨강색으로 된 branch들이 remote branch 이다</span><br>
+            </p>
+          </p>
+        <h1><span class="detail_content_list">Git 을 활용한 SW</span></h1>
+        <h1><span class="detail_content_list">Git 기타</span></h1>
 
 
 
             <li><a href="#">link 2</a></li>
             <li><a href="#">link 3</a></li>
             <li><a href="#">link 4</a></li>
-        </ul>
+        
         
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>

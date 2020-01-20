@@ -231,7 +231,7 @@ ul#menu li a:hover
   padding: 0 0 0 5px;
   float: right;}
   
-#content ul
+#content h1
 { margin: 2px 0 22px 0px;}
 
 #content ul li span{
@@ -240,6 +240,17 @@ ul#menu li a:hover
     margin: 0 0 0 0; 
     padding: 0 0 4px 15px;
     line-height: 1.5em;
+}
+
+#content h5 {
+    color:brown;
+    padding-bottom: 8px;
+}
+
+#content p span.deatail02 {
+    text-indent: 10%;
+    padding-left:15px;
+    padding-bottom: 5px;
 }
 
 .sidebar ul li {
