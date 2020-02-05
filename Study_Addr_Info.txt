@@ -36,4 +36,11 @@ There are 4 types of branches in Git
 4)remote-branch             : On remote Machine
 source : https://stackoverflow.com/questions/16408300/what-are-the-differences-between-local-branch-local-tracking-branch-remote-bra/24785777
 
+@ 재능있는 분석가 Tistory....물론 나보다는 고수이다. 
+Deep learning 을 이용해서, Classfication을 하는데, 불균형데이터를 잡는다.
+https://data-newbie.tistory.com/
+https://data-newbie.tistory.com/161
+https://data-newbie.tistory.com/136
+
+
 
