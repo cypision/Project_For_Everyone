@@ -104,8 +104,21 @@
             <p> 2.Remote Branch <br>
               <span>2.1 remote branch </span><br>
               <span class="deatail02"> 물리적으로 원격 reposittory에 존재하는 branch 를 말한다. 지금까지 얘기했던, 부분을 그림으로 보면 좀더 이해가 쉽다 </span><br>
-              <img class="img-fluid" src="img/git_pic02.PNG" alt="" width="550" height="150">
+              <img class="img-fluid" src="img/git_pic02.PNG" alt="" width="550" height="150"><br>
               <span class="deatail02"> 흰 글씨들이 tracking local branch이며, 파랑색깔이 remote-tracking-branch 이다. 빨강색으로 된 branch들이 remote branch 이다</span><br>
+            </p>
+            <p> 참조용 ※ ref symbol branch  <br>
+              <img class="img-fluid" src="img/git_pic03.PNG" alt="" width="550" height="150"><br>
+              위 그림처럼 볼때, "remotes/origin/HEAD -> origin/master" 부분이 의아해 보일 수 있다.<br>
+              이 부분은 이 저장소가 remote 저장소를 clone 해서 만들어졌기 때문에 자동으로 보이는 symbolic-ref HEAD 이다.
+              이 부분은 예를 들어 "test_branch_2020" 이란, 신규 branch 를 만들어 배포했어도, 신규 branch 로 checkout 했어도 변경되지 않는 부분이다
+              하기 그림을 통해 확인하자
+              <img class="img-fluid" src="img/git_pic04.PNG" alt="" width="550" height="150"><br>
+              <span>remote 에 새로 branch 를 만들려면, local에서 만든 이후, 밀어넣거다,</span> <br>
+              <span>remote에서 만든걸 checkout -t 란 옵션으로 동시에 같은 remote tarcking branch를 만드는 방법이 있따. 필자는 후자로 선택함</span>
+              <img class="img-fluid" src="img/git_pic05.PNG" alt="" width="550" height="150"><br>
+              <span>최종적으로 변한 모습을 "git branch -vv" 명령어를 통해서 확인한다</span>
+              <img class="img-fluid" src="img/git_pic06.PNG" alt="" width="550" height="150"><br>
             </p>
           </p>
         <h1><span class="detail_content_list">Git 을 활용한 SW</span></h1>
