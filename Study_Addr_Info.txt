@@ -42,5 +42,5 @@ https://data-newbie.tistory.com/
 https://data-newbie.tistory.com/161
 https://data-newbie.tistory.com/136
 
-
+## 2020.02.08 차이가 있어서, pull 을 했는데도, 반영이 안된다...왜지?
 
