@@ -103,11 +103,12 @@ ol li
   height: 186px;}
   
 #banner
-{  background: transparent url(banner.jpg) no-repeat;
-  width: 860px;
+{  background: transparent url(banner.jpg) repeat;
+  width: 1090px;
   height: 180px;
   margin-bottom: 20px;
   margin-right: 20px;
+  margin-left: 20px;
   align-self: right;
   border: 10px solid #DDD;}
 
