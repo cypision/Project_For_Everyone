@@ -43,7 +43,9 @@ https://data-newbie.tistory.com/161
 https://data-newbie.tistory.com/136
 
 6.DeepLearing
-Fraud Detection 관련 keras 풀이 :  
+6-1) Keras 창시자 책
+6-2) Fraud Detection 관련 keras 풀이 :  
 https://medium.com/@curiousily/credit-card-fraud-detection-using-autoencoders-in-keras-tensorflow-for-hackers-part-vii-20e0c85301bd
+6-3) 윤인성 youtube : 전반적인 크롤링과, Text분석에서 대해서 다루고 있음
 
 
