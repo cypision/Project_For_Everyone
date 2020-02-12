@@ -49,3 +49,8 @@ https://medium.com/@curiousily/credit-card-fraud-detection-using-autoencoders-in
 6-3) 윤인성 youtube : 전반적인 크롤링과, Text분석에서 대해서 다루고 있음
 
 
+7.추천시스템 연습하기
+Medium : https://github.com/susanli2016/Machine-Learning-with-Python/blob/master/Mercari%20Price%20Suggestion%20Lightgbm.ipynb
+
+8.GitHub Blog 활용
+https://devinlife.com/howto%20github%20pages/github-prepare/
