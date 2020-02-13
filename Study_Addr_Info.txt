@@ -55,3 +55,7 @@ Medium : https://github.com/susanli2016/Machine-Learning-with-Python/blob/master
 8.GitHub Blog 활용
 https://devinlife.com/howto%20github%20pages/github-prepare/
 window 설치 도전 : https://shryu8902.github.io/jekyll/jekyll-on-windows/
+
+local ruby 환경 clone시 매우중요한점 : 향후 git clone 를 통해, 어디서든 cypision.github.io blog 를 활용하려면, 
+1) local 에서, ruby 환경셋팅, 이번에는 window 10 이었음
+2) 반드시, clone 된, 폴더에서, "bundle install" -> "bundel exec jeykll serve" 실행할것
