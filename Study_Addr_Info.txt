@@ -59,3 +59,7 @@ window 설치 도전 : https://shryu8902.github.io/jekyll/jekyll-on-windows/
 local ruby 환경 clone시 매우중요한점 : 향후 git clone 를 통해, 어디서든 cypision.github.io blog 를 활용하려면, 
 1) local 에서, ruby 환경셋팅, 이번에는 window 10 이었음
 2) 반드시, clone 된, 폴더에서, "bundle install" -> "bundel exec jeykll serve" 실행할것
+
+9.latent matrix 논문에 대해, 그리고 각종 알고리즘에 대해, 가장 학술적으로 잘 정리했다.
+http://sanghyukchun.github.io/73/
+네이버 AI lab 연구원이며, 대단한 인재인듯
