@@ -47,7 +47,7 @@ https://data-newbie.tistory.com/136
 6-2) Fraud Detection 관련 keras 풀이 :  
 https://medium.com/@curiousily/credit-card-fraud-detection-using-autoencoders-in-keras-tensorflow-for-hackers-part-vii-20e0c85301bd
 6-3) 윤인성 youtube : 전반적인 크롤링과, Text분석에서 대해서 다루고 있음
-
+6-4) Auto ML, Siamese Neural Networks, Gan 에 대해 다루고 있음. : https://jayhey.github.io/
 
 7.추천시스템 연습하기
 Medium : https://github.com/susanli2016/Machine-Learning-with-Python/blob/master/Mercari%20Price%20Suggestion%20Lightgbm.ipynb
@@ -58,7 +58,7 @@ window 설치 도전 : https://shryu8902.github.io/jekyll/jekyll-on-windows/
 
 local ruby 환경 clone시 매우중요한점 : 향후 git clone 를 통해, 어디서든 cypision.github.io blog 를 활용하려면, 
 1) local 에서, ruby 환경셋팅, 이번에는 window 10 이었음
-2) 반드시, clone 된, 폴더에서, "bundle install" -> "bundel exec jeykll serve" 실행할것
+2) 반드시, clone 된, 폴더에서, "bundle install" -> "bundle exec jekyll serve" 실행할것
 
 9.latent matrix 논문에 대해, 그리고 각종 알고리즘에 대해, 가장 학술적으로 잘 정리했다.
 http://sanghyukchun.github.io/73/
