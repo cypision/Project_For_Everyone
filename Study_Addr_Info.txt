@@ -63,3 +63,11 @@ local ruby 환경 clone시 매우중요한점 : 향후 git clone 를 통해, 어
 9.latent matrix 논문에 대해, 그리고 각종 알고리즘에 대해, 가장 학술적으로 잘 정리했다.
 http://sanghyukchun.github.io/73/
 네이버 AI lab 연구원이며, 대단한 인재인듯
+
+참고자료 
+딥러닝을 이용한 자연어 처리 입무 https://wikidocs.net/24586
+webnautes : 영상인식에서, OpenCV 정리가 잘되어 있어보인다.
+https://www.youtube.com/user/webnautes/about
+
+10. Text 분석시, 한국어 Text 분석을 제대로 하려면, KoNLPy 가 있어야 하는데, windows 에서 설치하기는 너무 힘들다.
+   Docker로 한번 도전해보려고 한다.
