@@ -78,3 +78,19 @@ https://www.youtube.com/user/webnautes/about
 12. LSTM 을 통한 시계열 예측
 https://m.blog.naver.com/PostView.nhn?blogId=chunjein&logNo=221589705745&targetKeyword=&targetRecommendationCode=1
 http://tykimos.github.io/ : Keras 고수이심. 2017년부터 꾸준히 해오고 있음.
+
+13.연관성분석
+ https://medium.com/analytics-vidhya/association-analysis-in-python-2b955d0180c
+ https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/
+ https://frhyme.github.io/associative_mining/
+ https://rfriend.tistory.com/192
+
+14.stacking 연습
+책자에 소개된 github가 문닫으며 소개시켜준 곳 : https://github.com/Menelau/DESlib
+우연히 찾은곳 
+1) https://inspiringpeople.github.io/data%20analysis/Ensemble_Stacking/
+2) https://inspiringpeople.github.io/data%20analysis/Ensemble_Keras/
+3) https://lsjsj92.tistory.com/558 / https://lsjsj92.tistory.com/559?category=853217
+
+15.이상치제거의 중요성
+https://lsjsj92.tistory.com/556?category=853217
