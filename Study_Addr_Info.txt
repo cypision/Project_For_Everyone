@@ -90,7 +90,7 @@ http://tykimos.github.io/ : Keras 고수이심. 2017년부터 꾸준히 해오�
 우연히 찾은곳 
 1) https://inspiringpeople.github.io/data%20analysis/Ensemble_Stacking/
 2) https://inspiringpeople.github.io/data%20analysis/Ensemble_Keras/
-3) https://lsjsj92.tistory.com/558 / https://lsjsj92.tistory.com/559?category=853217
+3) https://lsjsj92.tistory.com/558
 
 15.이상치제거의 중요성
 https://lsjsj92.tistory.com/556?category=853217
