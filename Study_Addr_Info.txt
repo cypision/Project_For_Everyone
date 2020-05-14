@@ -94,3 +94,6 @@ http://tykimos.github.io/ : Keras 고수이심. 2017년부터 꾸준히 해오�
 
 15.이상치제거의 중요성
 https://lsjsj92.tistory.com/556?category=853217
+
+16. missing value 처리
+KNN으로 mihttps://gist.github.com/YohanObadia/b310793cd22a4427faaadd9c381a5850
