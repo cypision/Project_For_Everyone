@@ -97,3 +97,6 @@ https://lsjsj92.tistory.com/556?category=853217
 
 16. missing value 처리
 KNN으로 mihttps://gist.github.com/YohanObadia/b310793cd22a4427faaadd9c381a5850
+
+17.StatQuest 정리한 사람들의 blog
+ - https://dailyheumsi.tistory.com (catboosting, mean encoding 최신기법도 다룬다.)
