@@ -9,19 +9,21 @@
 
 # i~j 까지의 각 숫자들의 list을 구함 -> list길이 구함 -> 수열길이 최대값 찾기
 input_data = 22
-input_data_02 = (900,1000)
+input_data_02 = (900,1000) ## 174
 def make_lst(input):
-    lst_a = [int(input)]
+    num_lst = [int(input)]
     while True:
-        if lst_a[-1]==1:
+        num = num_lst[-1]
+        if num == 1:
             break
-        if int(lst_a[-1])%2 == 0:
-            a = int(lst_a[-1])/2
-            lst_a.append(int(a))
         else:
-            b = int(lst_a[-1])*3+1
-            lst_a.append(int(b))
-    rslt = lst_a
+            if num%2 ==1 : #홀수일경우
+                a = num*3+1
+                num_lst.append(a)
+            else:
+                b = num // 2
+                num_lst.append(b)
+    rslt= num_lst
     return rslt
 
 def find_cycle_length(input):

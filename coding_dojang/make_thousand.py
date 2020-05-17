@@ -8,6 +8,23 @@ num_int = 48434546
 # num_int = 9843444687
 
 def make_comma(input):
+    str_lst = list(str(input))
+    reverse_str_lst = list(reversed(str_lst))
+    # print(reverse_str_lst)
+    comma_rsl = []
+    for i in range(len(reverse_str_lst)):
+        # print(reverse_str_lst[i])
+        if i % 3 ==2:
+            comma_rsl.append(reverse_str_lst[i])
+            comma_rsl.append(",")
+        else:
+            comma_rsl.append(reverse_str_lst[i])
+    # print(comma_rsl)
+    comma_rsl.reverse()
+    rslt = "".join(comma_rsl)
+    return rslt
+
+def make_comma_origin(input):
     a = list(str(input))
     # print(list(reversed(a))) ## 값만 그대로 뒤집는건 여러 방법이 존재함
     # a.reverse() ## 값만 그대로 뒤집는건 여러 방법이 존재함

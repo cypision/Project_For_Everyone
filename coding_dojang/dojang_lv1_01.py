@@ -12,7 +12,7 @@ def short_dis_pair(input):
         diff = lst[n+1]-lst[n]
         if diff < min_value :
             dis_out_01.append((lst[n],lst[n+1]))
-    min_value = min(dis_out_01)
+            min_value = min(dis_out_01)
     # final_inx = dis_out_01.index(min_value)
     # result = (lst[final_inx],lst[final_inx+1])
     result = dis_out_01[-1]
@@ -28,13 +28,13 @@ S2 = (3, 5, 1, 7, 14, 20, 33)
 #이 경우는 sorting여부와 관계없이 찾을 수 있다.
 def shortest(input):
     lst = list(input)
-    lst01 = lst.copy()
+    lst.sort()
     min_lst = []
-    for n in range(len(lst)):
-        min_lst.append(min(lst01))
-        lst01.remove(min(lst01))
-    result = (min_lst[0],min_lst[1])
-    print(result)
+    for n in range(0,len(lst)-1):
+        min_lst.append((abs(lst[n]-lst[n+1]),lst[n],lst[n+1]))
+    min_lst.sort(key=lambda x : x[0],reverse=False)
+    result = (min_lst[0][1],min_lst[0][2])
+    return result
 
 # shortest(S1)
 
@@ -53,7 +53,7 @@ def short_dis_pair(input):
     min_value = min(dis_out_01)
     final_inx = dis_out_01.index(min_value)
     result = (lst[final_inx],lst[final_inx+1])
-    print(result)
+    return result
 
 # 1차원의 점들이 주어졌을 때, 그 중 가장 거리가 짧은 것의 쌍을 출력하는 함수를 작성하시오.
 # (단 점들의 배열은 모두 정렬되어있다고 가정한다.)
@@ -79,5 +79,5 @@ if __name__ == "__main__":
     print(S1)
     # print(max(S1))
     # rslt = find_short_pair(S2)
-    rslt = short_dis_pair(S1)
-    # print(rslt)
+    rslt = shortest(S1)
+    print(rslt)

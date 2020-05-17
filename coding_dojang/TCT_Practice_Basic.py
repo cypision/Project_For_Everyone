@@ -64,7 +64,7 @@ def sample03():
     for key,val in sorted(adict.items(), key = lambda item : item[1], reverse=True):
         print(key,val)
     rslt = sorted(adict.items(), key = lambda item : item[1], reverse=True)
-    print(dict(rslt))
+    print(rslt)
     print()
 
 if __name__ == "__main__":
