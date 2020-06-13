@@ -101,3 +101,6 @@ KNN으로 mihttps://gist.github.com/YohanObadia/b310793cd22a4427faaadd9c381a5850
 17.StatQuest 정리한 사람들의 blog
  - https://dailyheumsi.tistory.com (catboosting, mean encoding 최신기법도 다룬다.)
    (pool library 같은 parmap 같은 pararrel processing 도 있다)  
+
+18. Ordered Logistice Regression
+ - https://rikunert.com/ordinal_rating (python mord library를 활용한 예제를 수록함)
