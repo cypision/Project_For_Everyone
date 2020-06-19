@@ -104,3 +104,6 @@ KNN으로 mihttps://gist.github.com/YohanObadia/b310793cd22a4427faaadd9c381a5850
 
 18. Ordered Logistice Regression
  - https://rikunert.com/ordinal_rating (python mord library를 활용한 예제를 수록함)
+
+19. EDA 관련해서, 공부하는 BLOG 여러 competition 사례들도 같이 있다.
+ - https://eda-ai-lab.tistory.com/
