@@ -1,0 +1,15 @@
+FROM ubuntu:bionic
+
+LABEL maintainer="Cheong Jin Hwan"
+
+# apt-get update and app 디렉토리 생성
+RUN apt-get update && apt-get install -y \
+      pkg-config \
+      unzip \
+      unrar \
+      vim \
+      wget \
+      build-essential \
+      python3-pip \
+      python3-dev && ln -s /usr/bin/python3 /usr/local/bin/python && ln -s /usr/bin/pip3 /usr/local/bin/pip && \
+      pip install --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org --upgrade pip
