@@ -107,3 +107,10 @@ KNN으로 mihttps://gist.github.com/YohanObadia/b310793cd22a4427faaadd9c381a5850
 
 19. EDA 관련해서, 공부하는 BLOG 여러 competition 사례들도 같이 있다.
  - https://eda-ai-lab.tistory.com/
+
+20. 자연어 감성분석 - 2020년 기술BLOG 저자 책 집필중
+https://wikidocs.net/44249
+"딥 러닝을 이용한 자연어 처리 입문"
+
+## 연관검색어 API
+https://github.com/devkingsejong/python-PowerNad - Test 필요
