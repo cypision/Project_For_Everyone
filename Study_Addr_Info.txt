@@ -114,3 +114,8 @@ https://wikidocs.net/44249
 
 ## 연관검색어 API
 https://github.com/devkingsejong/python-PowerNad - Test 필요
+
+21. PageRank : http://blog.samuelmh.com/2015/02/pagerank-sparse-matrices-python-ipython.html
+ 기존개발자가, PageRank 구현을 상기처럼 해서, 추적하는 중이다. 결국 상기 내용의 수식은 인접행렬
+ 인전행렬은 결국 = "Markov Matrix , Markov chain)과 맞닿아 있어서, 흘러들어갔다.
+ https://twlab.tistory.com/53
