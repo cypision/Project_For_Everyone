@@ -119,3 +119,19 @@ https://github.com/devkingsejong/python-PowerNad - Test 필요
  기존개발자가, PageRank 구현을 상기처럼 해서, 추적하는 중이다. 결국 상기 내용의 수식은 인접행렬
  인전행렬은 결국 = "Markov Matrix , Markov chain)과 맞닿아 있어서, 흘러들어갔다.
  https://twlab.tistory.com/53
+
+22. Pymc3 : 베이지안 추론과정을 위한 Library 임. youtube  검색어, "pymc3"는 많은 자료가 있지만, 영문이라 어려움이 있음.
+ 그 와중 하기의 전자책을 찾게되었음. 구매가능한 책
+ https://thebook.io/006775/
+"프로그래머를 위한 베이지안 with 파이썬"
+
+23.EM 알고리즘(expectation-maximization algorithm)
+1) 한국어, 기초설명 좋음 : https://operatingsystems.tistory.com/entry/Data-Mining-EM-algorithm
+2) 한국어, 원론설명(수식있음) 위 글과 참고하면 좋을 듯 : https://m.blog.naver.com/lhm0812/220709231513
+3) http://sanghyukchun.github.io/70/
+4) ★기초이나 매우 중요★JOINT, MARGINAL, CONDITIONAL PROBABILITY DISTRIBUTION
+   출처: https://excelsior-cjh.tistory.com/193 [EXCELSIOR]
+
+24.KL divergence
+1) 정보이론에 대한 설명부터 시작하며, Entropy, Cross-Entropy, KL 순으로 정리됨
+ -> https://hyunw.kim/blog/2017/10/26/Cross_Entropy.html
