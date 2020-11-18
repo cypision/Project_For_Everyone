@@ -135,3 +135,6 @@ https://github.com/devkingsejong/python-PowerNad - Test 필요
 24.KL divergence
 1) 정보이론에 대한 설명부터 시작하며, Entropy, Cross-Entropy, KL 순으로 정리됨
  -> https://hyunw.kim/blog/2017/10/26/Cross_Entropy.html
+
+25. 포아송분포
+1) 나름 친절한 설명 : https://m.blog.naver.com/nilsine11202/221381064429
